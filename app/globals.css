@@ -6,21 +6,86 @@
 }
 
 @theme inline {
+    --color-primary: #164484;
+    --color-secondary: #6aa964;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+@keyframes bubble-rise {
+    0% {
+        transform: translateY(0) translateX(0);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateY(-100vh) translateX(100px);
+        opacity: 0;
+    }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.bubble {
+    animation: bubble-rise 15s ease-in-out infinite;
+}
+
+.bubble:nth-child(1) {
+    animation-duration: 12s;
+    animation-delay: 0s;
+    left: 10%;
+}
+
+.bubble:nth-child(2) {
+    animation-duration: 18s;
+    animation-delay: 2s;
+    left: 25%;
+}
+
+.bubble:nth-child(3) {
+    animation-duration: 14s;
+    animation-delay: 4s;
+    left: 40%;
+}
+
+.bubble:nth-child(4) {
+    animation-duration: 20s;
+    animation-delay: 1s;
+    left: 55%;
+}
+
+.bubble:nth-child(5) {
+    animation-duration: 16s;
+    animation-delay: 3s;
+    left: 70%;
+}
+
+.bubble:nth-child(6) {
+    animation-duration: 15s;
+    animation-delay: 5s;
+    left: 85%;
+}
+
+.bubble:nth-child(7) {
+    animation-duration: 13s;
+    animation-delay: 6s;
+    left: 15%;
+}
+
+.bubble:nth-child(8) {
+    animation-duration: 19s;
+    animation-delay: 7s;
+    left: 60%;
+}
+
+.bubble:nth-child(9) {
+    animation-duration: 17s;
+    animation-delay: 2.5s;
+    left: 80%;
+}
+
+.bubble:nth-child(10) {
+    animation-duration: 14s;
+    animation-delay: 4.5s;
+    left: 35%;
 }

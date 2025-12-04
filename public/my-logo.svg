@@ -1,0 +1,22 @@
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Green gradient for smile -->
+        <linearGradient id="smileGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#blue;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:green;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Top smile arc -->
+    <path d="M 300 80 Q 450 40 600 80" stroke="url(#smileGradient)" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 310 90 Q 450 55 590 90" stroke="url(#smileGradient)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 320 100 Q 450 70 580 100" stroke="url(#smileGradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <!-- Yours Friend text in blue -->
+    <text x="60" y="200" font-family="Brush Script MT, cursive" font-size="120" font-weight="bold" fill="#1565C0" style="font-style: italic;">Yours Friend</text>
+
+    <!-- Bottom smile arc -->
+    <path d="M 300 240 Q 450 280 600 240" stroke="url(#smileGradient)" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 310 230 Q 450 265 590 230" stroke="url(#smileGradient)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 320 220 Q 450 250 580 220" stroke="url(#smileGradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
