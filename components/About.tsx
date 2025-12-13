@@ -67,7 +67,7 @@ export default function About() {
                                 <div className="text-sm">Years Experience</div>
                             </div>
                             <div className="px-4 py-2 rounded-lg bg-white border border-blue-500/20 text-primary">
-                                <div className="text-2xl font-bold">50+</div>
+                                <div className="text-2xl font-bold">8+</div>
                                 <div className="text-sm">Projects Delivered</div>
                             </div>
                             <div className="px-4 py-2 rounded-lg bg-white border border-blue-500/20 text-primary">

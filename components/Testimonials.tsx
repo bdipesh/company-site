@@ -5,47 +5,29 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
     {
-        name: 'Sarah Chen',
-        role: 'CEO, TechStart',
-        company: 'SaaS Startup',
+        name: 'Omar M',
+        role: 'CEO & Founder, Testapp.io',
+        company: 'Testapp.io',
         content: 'YoursFriend helped us launch our MVP in just 6 weeks. Their technical expertise and clear communication made the entire process seamless. We\'ve now raised our seed round!',
         rating: 5,
     },
     {
-        name: 'Michael Rodriguez',
-        role: 'Product Manager',
-        company: 'E-commerce Platform',
+        name: 'Himansu Arora',
+        role: 'Founder',
+        company: 'Copay.au',
         content: 'The team delivered beyond expectations. Not only did they build exactly what we needed, but they also suggested improvements that significantly boosted our conversion rates.',
         rating: 5,
     },
     {
-        name: 'Emma Thompson',
+        name: 'Omar G',
         role: 'Founder',
-        company: 'HealthTech',
+        company: 'Talktime',
         content: 'Working with YoursFriend felt like having a CTO on our team. They understood our vision and translated it into a beautiful, fast product that our users love.',
         rating: 5,
     },
-    {
-        name: 'David Park',
-        role: 'Tech Lead',
-        company: 'FinTech Company',
-        content: 'Impressive code quality and architecture. They set up our infrastructure for scale from day one. Best development partner we\'ve worked with.',
-        rating: 5,
-    },
-    {
-        name: 'Lisa Anderson',
-        role: 'Marketing Director',
-        company: 'Real Estate Platform',
-        content: 'Our website traffic increased by 120% after the redesign. The SEO optimization work they did was phenomenal. ROI was clear within the first month.',
-        rating: 5,
-    },
-    {
-        name: 'James Wilson',
-        role: 'Startup Founder',
-        company: 'EdTech',
-        content: 'From concept to launch in record time. The agile approach and weekly demos kept us aligned throughout. Couldn\'t be happier with the results.',
-        rating: 5,
-    },
+
+
+
 ];
 
 export default function Testimonials() {
