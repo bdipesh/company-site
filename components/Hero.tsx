@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 import CalendlyButton from "@/components/CandenlyAction";
 
 export default function Hero() {
@@ -52,8 +52,8 @@ export default function Hero() {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="text-xl  mb-12 max-w-3xl mx-auto"
                 >
-                    We build lightning-fast web applications that drive real business results.
-                    From MVP to scale, we're your technical co-pilot.
+                    {`We build lightning-fast web applications that drive real business results.
+                    From MVP to scale, we're your technical co-pilot.`}
                 </motion.p>
 
                 <motion.div

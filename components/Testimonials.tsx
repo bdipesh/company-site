@@ -48,7 +48,8 @@ export default function Testimonials() {
             </span>
                     </h2>
                     <p className="text-xl  max-w-2xl mx-auto">
-                        Don't just take our word for it. Here's what our clients say about working with us.
+                        {`                        Don't just take our word for it. Here's what our clients say about working with us.
+`}
                     </p>
                 </motion.div>
 
