@@ -82,8 +82,8 @@ ${body}`;
             </span>
                     </h1>
                     <p className="text-xl  max-w-2xl mx-auto">
-                        {`                        Tell us about your project and we'll get back to you within 24 hours with a plan to bring your vision to life.
-`}
+                        {` Tell us about your project and we'll get back to you within 24 hours with a plan to bring your vision to life.`}
+`
                     </p>
                 </motion.div>
 
@@ -180,7 +180,7 @@ ${body}`;
                                     <CheckCircle className="w-16 h-16 text-secondary mx-auto mb-4" />
                                     <h3 className="text-2xl font-bold text-primary mb-2">Thank You!</h3>
                                     <p className="">
-                                        We've received your message and will get back to you within 24 hours.
+                                        {`We've received your message and will get back to you within 24 hours.`}
                                     </p>
                                 </motion.div>
                             ) : (

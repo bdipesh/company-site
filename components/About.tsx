@@ -46,18 +46,18 @@ export default function About() {
                         </h2>
                         <div className="space-y-4 text-lg  mb-8">
                             <p>
-                                We're a team of senior developers and designers who are obsessed with building
+                                {`We're a team of senior developers and designers who are obsessed with building
                                 products that people love. No bloat, no unnecessary meetings, just great code
-                                and results that matter.
+                                and results that matter.`}
                             </p>
                             <p>
-                                With years of experience building for startups and enterprises, we know what
+                                {` With years of experience building for startups and enterprises, we know what
                                 it takes to go from idea to scale. We've been in your shoes, and we're here
-                                to help you avoid the pitfalls and accelerate your growth.
+                                to help you avoid the pitfalls and accelerate your growth.`}
                             </p>
                             <p>
-                                Whether you're a founder looking to build your MVP or a growing company
-                                needing technical expertise, we're your technical co-pilot for the journey ahead.
+                                {`Whether you're a founder looking to build your MVP or a growing company
+                                needing technical expertise, we're your technical co-pilot for the journey ahead.`}
                             </p>
                         </div>
 

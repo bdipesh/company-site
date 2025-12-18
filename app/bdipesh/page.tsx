@@ -375,7 +375,7 @@ export default function Home() {
                         <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                             Featured Projects
                         </h2>
-                        <p className="text-gray-400 text-lg">Innovative solutions I've built for clients worldwide</p>
+                        <p className="text-gray-400 text-lg">{`Innovative solutions I've built for clients worldwide`}</p>
                     </motion.div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

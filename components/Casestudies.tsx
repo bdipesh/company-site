@@ -2,8 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowUpRight, TrendingUp, Zap, Users } from 'lucide-react';
-import Image from 'next/image';
+import { ArrowUpRight } from 'lucide-react';
 
 const caseStudies = [
     {
@@ -53,7 +52,8 @@ export default function CaseStudies() {
             </span>
                     </h2>
                     <p className="text-xl  max-w-2xl mx-auto">
-                        Real businesses. Real growth. See how we've helped companies scale.
+                        {`                        Real businesses. Real growth. See how we've helped companies scale.
+`}
                     </p>
                 </motion.div>
 

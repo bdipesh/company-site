@@ -1,8 +1,7 @@
 'use client';
 import { PopupModal } from 'react-calendly';
 import { useState, useEffect } from 'react'
-import {ArrowRight, Phone} from "lucide-react";
-import Link from "next/link";
+import {ArrowRight} from "lucide-react";
 export default function CalendlyButton({fromHeader, text}: { fromHeader?: boolean, text?: string}) {
     const [isOpen, setIsOpen] = useState(false)
     // Calendly's PopupModal expects `rootElement?: HTMLElement`.
