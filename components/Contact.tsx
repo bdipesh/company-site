@@ -76,13 +76,14 @@ ${body}`;
                     className="text-center mb-16"
                 >
                     <h1 className="text-5xl lg:text-6xl font-bold text-primary mb-6">
-                        Let's Build{' '}
+                        {`Let's Build{' '}`}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
               Together
             </span>
                     </h1>
                     <p className="text-xl  max-w-2xl mx-auto">
-                        Tell us about your project and we'll get back to you within 24 hours with a plan to bring your vision to life.
+                        {`                        Tell us about your project and we'll get back to you within 24 hours with a plan to bring your vision to life.
+`}
                     </p>
                 </motion.div>
 
@@ -98,8 +99,8 @@ ${body}`;
                             <div>
                                 <h2 className="text-2xl font-bold text-primary mb-6">Get in Touch</h2>
                                 <p className=" mb-8">
-                                    We're here to answer any questions you have about our services.
-                                    Reach out and we'll respond as soon as possible.
+                                    {`We're here to answer any questions you have about our services.
+                                    Reach out and we'll respond as soon as possible.`}
                                 </p>
                             </div>
 
@@ -110,7 +111,7 @@ ${body}`;
                                     </div>
                                     <div>
                                         <div className="font-semibold mb-1">Email</div>
-                                        <a href="mailto:hello@yoursfriend.com" className=" hover:text-primary transition-colors">
+                                        <a href="bdipesh08@gmail.com" className=" hover:text-primary transition-colors">
                                             hello@yoursfriend.com
                                         </a>
                                     </div>

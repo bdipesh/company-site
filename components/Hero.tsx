@@ -65,10 +65,10 @@ export default function Hero() {
                     <CalendlyButton fromHeader={true}/>
 
                     <Link
-                        href="#case-studies"
+                        href="/co-work"
                         className="px-8 py-4 border border-primary text-primary rounded-lg font-semibold hover:bg-white/10 transition-all duration-300"
                     >
-                        View Our Work
+                        Join Co-working Space
                     </Link>
                 </motion.div>
 

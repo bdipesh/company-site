@@ -7,9 +7,10 @@ import { Menu, X } from 'lucide-react';
 import Image from "next/image";
 
 const navItems = [
-    { label: 'Services', href: '#services' },
-    { label: 'Work', href: '#case-studies' },
-    { label: 'About', href: '#about' },
+    { label: 'Co-working space', href: '/co-work' },
+    { label: 'Services', href: '/#services' },
+    { label: 'Work', href: '/#case-studies' },
+    { label: 'About', href: '/#about' },
     { label: 'Contact', href: '/contact' },
 ];
 
