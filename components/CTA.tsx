@@ -42,8 +42,8 @@ export default function CTA() {
                             viewport={{ once: true }}
                             className="text-xl text-white/90 mb-12 max-w-2xl mx-auto"
                         >
-                            Let's turn your vision into reality. Book a free consultation and
-                            discover how we can accelerate your business growth.
+                            {`Let's turn your vision into reality. Book a free consultation and
+                            discover how we can accelerate your business growth.`}
                         </motion.p>
 
                         <motion.div
