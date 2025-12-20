@@ -21,29 +21,30 @@ export default function Hero() {
                 <div className="bubble absolute bottom-0 w-12 h-12 bg-[#6aa964] rounded-full opacity-60"></div>
             </div>
             <div className="relative z-10 max-w-7xl mx-auto text-center">
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/20 border border-blue-500/20 text-primary text-sm font-medium mb-8"
-                >
-                    <Sparkles className="w-4 h-4" />
-                    <span>Trusted by ambitious businesses</span>
-                </motion.div>
+                {/*<motion.div*/}
+                {/*    initial={{ opacity: 0, y: 20 }}*/}
+                {/*    animate={{ opacity: 1, y: 0 }}*/}
+                {/*    transition={{ duration: 0.6 }}*/}
+                {/*    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/20 border border-blue-500/20 text-primary text-sm font-medium mb-8"*/}
+                {/*>*/}
+                {/*    <Sparkles className="w-4 h-4" />*/}
+                {/*    <span>Trusted by ambitious businesses</span>*/}
+                {/*</motion.div>*/}
 
                 <motion.h1
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.1 }}
                     className="text-5xl sm:text-6xl lg:text-7xl font-bold text-black mb-6 leading-tight"
-                >
-                    Build faster.
+                > Building More Than Websites
+
+
                     <br />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary  to-secondary">
-            Launch smarter.
+            We Build Futures
           </span>
                     <br />
-                    Grow bigger.
+                    Build faster.
                 </motion.h1>
 
                 <motion.p
@@ -52,8 +53,8 @@ export default function Hero() {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="text-xl  mb-12 max-w-3xl mx-auto"
                 >
-                    {`We build lightning-fast web applications that drive real business results.
-                    From MVP to scale, we're your technical co-pilot.`}
+                    {`Yoursfriend Tech & Software Solutions helps businesses launch,
+                        students grow, and ideas turn into real-world products.`}
                 </motion.p>
 
                 <motion.div
