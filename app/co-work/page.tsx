@@ -49,7 +49,7 @@ export default function CoworkingPage() {
           <div className="rounded-2xl border text-white border-primary bg-primary p-6 hover:border-indigo-600 transition">
             <h3 className="text-xl font-semibold mb-2">Daily Pass</h3>
             <p className="text-white mb-4">Best for short-term work</p>
-            <p className="text-3xl font-bold mb-6">NPR 500</p>
+            <p className="text-3xl font-bold mb-6">NPR 300</p>
             <ul className="space-y-3 text-sm mb-6">
               <li className="flex gap-2"><Check size={16}/> Full-day access</li>
               <li className="flex gap-2"><Check size={16}/> High-speed internet</li>
@@ -88,7 +88,7 @@ export default function CoworkingPage() {
           <div className="rounded-2xl border text-white border-primary bg-primary p-6 hover:border-indigo-600 transition">
             <h3 className="text-xl font-semibold mb-2">Student Plan</h3>
             <p className=" mb-4">Affordable learning space</p>
-            <p className="text-3xl font-bold mb-6">NPR 3,000</p>
+            <p className="text-3xl font-bold mb-6">NPR 5,000</p>
             <ul className="space-y-3 text-sm mb-6">
               <li className="flex gap-2"><Check size={16}/> Daytime access</li>
               <li className="flex gap-2"><Check size={16}/> Study-friendly environment</li>
