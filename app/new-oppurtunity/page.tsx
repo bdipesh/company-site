@@ -86,12 +86,12 @@ export default function LandingPage() {
                         >
                             <CalendlyButton fromHeader={true}/>
 
-                            <Link
-                                href="/co-work"
+                            <button
+                                onClick={() => openChatWithMessage()}
                                 className="px-8 py-4 border border-secondary text-secondary rounded-lg font-semibold hover:bg-white/10 transition-all duration-300"
                             >
                                 Free 3-day Bootcamp
-                            </Link>
+                            </button>
                         </motion.div>
                     </motion.div>
                 </div>
