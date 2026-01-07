@@ -10,12 +10,12 @@ import Footer from "@/components/Footer";
 export default function LandingPage() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const openChatWithMessage = () => {
-        const tawkApi = (window as any).Tawk_API;
+        const tawkApi = window.Tawk_API;
         if(tawkApi) {
             // Predefined message context for the agent
             tawkApi.addEvent('interested-in-demo', {
                 'message': 'I would like to register for the 3-day demo bootcamp'
-            }, (error: any) => {
+            }, (error) => {
                 if (error) console.error('Tawk_API error:', error);
             });
             tawkApi.maximize();
