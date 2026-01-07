@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Instagram, Facebook, Linkedin, Mail } from 'lucide-react';
 import Image from "next/image";
 
 const footerLinks = {
@@ -24,10 +24,10 @@ const footerLinks = {
 };
 
 const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:hello@yoursfriend.com', label: 'Email' },
+    { icon: Instagram, href: 'https://www.instagram.com/yoursfriendtech/', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/yoursfriend', label: 'LinkedIn' },
+    { icon: Facebook, href: 'https://web.facebook.com/profile.php?id=61574579494003', label: 'Twitter' },
+    { icon: Mail, href: 'mailto:info.yoursfriend@gmail.com', label: 'Email' },
 ];
 
 export default function Footer() {
