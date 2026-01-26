@@ -20,67 +20,72 @@ export default function Hero() {
                 <div className="bubble absolute bottom-0 w-16 h-16 bg-[#164484] rounded-full opacity-65"></div>
                 <div className="bubble absolute bottom-0 w-12 h-12 bg-[#6aa964] rounded-full opacity-60"></div>
             </div>
-            <div className="relative z-10 max-w-7xl mx-auto text-center">
-                {/*<motion.div*/}
-                {/*    initial={{ opacity: 0, y: 20 }}*/}
-                {/*    animate={{ opacity: 1, y: 0 }}*/}
-                {/*    transition={{ duration: 0.6 }}*/}
-                {/*    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/20 border border-blue-500/20 text-primary text-sm font-medium mb-8"*/}
-                {/*>*/}
-                {/*    <Sparkles className="w-4 h-4" />*/}
-                {/*    <span>Trusted by ambitious businesses</span>*/}
-                {/*</motion.div>*/}
+            <div className="flex">
+                <div>
+                    <div className="relative z-10 max-w-7xl mx-auto text-center">
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6 }}
+                            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/20 border border-blue-500/20 text-primary text-sm font-medium mb-8"
+                        >
+                            <Sparkles className="w-4 h-4" />
+                            <span>Trusted by ambitious businesses</span>
+                        </motion.div>
 
-                <motion.h1
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.1 }}
-                    className="text-5xl sm:text-6xl lg:text-7xl font-bold text-black mb-6 leading-tight"
-                > Building More Than Websites
+                        <motion.h1
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, delay: 0.1 }}
+                            className="text-5xl sm:text-6xl lg:text-7xl font-bold text-black mb-6 leading-tight"
+                        > Building More Than Websites
 
 
-                    <br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary  to-secondary">
+                            <br />
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary  to-secondary">
             We Build Futures
           </span>
-                    <br />
-                    Build faster.
-                </motion.h1>
+                            <br />
+                            Build faster.
+                        </motion.h1>
 
-                <motion.p
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.2 }}
-                    className="text-xl  mb-12 max-w-3xl mx-auto"
-                >
-                    {`Yoursfriend Tech & Software Solutions helps businesses launch,
+                        <motion.p
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, delay: 0.2 }}
+                            className="text-xl  mb-12 max-w-3xl mx-auto"
+                        >
+                            {`Yoursfriend Tech & Software Solutions helps businesses launch,
                         students grow, and ideas turn into real-world products.`}
-                </motion.p>
+                        </motion.p>
 
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.3 }}
-                    className="flex flex-col sm:flex-row gap-4 justify-center items-center"
-                >
-                    <CalendlyButton fromHeader={true}/>
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, delay: 0.3 }}
+                            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+                        >
+                            <CalendlyButton fromHeader={true}/>
 
-                    <Link
-                        href="/new-oppurtunity"
-                        className="px-8 py-4 border border-primary text-primary rounded-lg font-semibold hover:bg-white/10 transition-all duration-300"
-                    >
-                        Free Bootcamp
-                    </Link>
-                </motion.div>
+                            <Link
+                                href="/new-oppurtunity"
+                                className="px-8 py-4 border border-primary text-primary rounded-lg font-semibold hover:bg-white/10 transition-all duration-300"
+                            >
+                                Free Bootcamp
+                            </Link>
+                        </motion.div>
 
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.6, delay: 0.5 }}
-                    className="mt-20 text-sm "
-                >
-                    <p>Trusted by startups and scale-ups worldwide</p>
-                </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 0.6, delay: 0.5 }}
+                            className="mt-20 text-sm "
+                        >
+                            <p>Trusted by startups and scale-ups worldwide</p>
+                        </motion.div>
+                    </div>
+                </div>
+                <div></div>
             </div>
 
             {/* Scroll indicator */}

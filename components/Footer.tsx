@@ -38,7 +38,7 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="lg:col-span-2">
                         <Link href="/" className="flex items-center gap-2 mb-4">
-                            <Image src="/logo-full-light.svg" alt='Logo' width={250} height={250} />
+                            <Image src="/new-logo/foter-dark.svg" alt='Logo' width={250} height={250} />
 
                         </Link>
                         <p className="text-slate-400 mb-6 max-w-sm">

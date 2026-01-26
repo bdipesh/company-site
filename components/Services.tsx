@@ -1,45 +1,47 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code2, Rocket, LineChart, Zap, Database, Layout } from 'lucide-react';
+import { Code2, GraduationCap, LineChart, Zap, Database, Layout } from 'lucide-react';
 
 const services = [
     {
         icon: Code2,
         title: 'Web Development',
-        description: 'Lightning-fast websites and web applications built with Next.js, React, and TypeScript. Optimized for performance and SEO.',
-        features: ['Next.js & React', 'TypeScript', 'Responsive Design', 'SEO Optimized'],
+        description: 'We build fast, modern, and SEO-friendly websites and web apps using today’s best technologies.',
+        features: [
+            'Next.js & React',
+            'Vue & Nuxt',
+            'TypeScript',
+            'Responsive Design',
+            'Performance & SEO'
+        ],
     },
-    {
-        icon: Zap,
-        title: 'MVP Development',
-        description: 'Launch your product in weeks, not months. We build scalable MVPs that validate your idea and attract investors.',
-        features: ['Rapid Development', 'Scalable Architecture', 'User Testing', 'Iterative Approach'],
-    },
+
     {
         icon: Database,
         title: 'Full-Stack Solutions',
-        description: 'End-to-end development with modern backend technologies. From databases to APIs, we handle the complete stack.',
-        features: ['Supabase & PostgreSQL', 'RESTful APIs', 'Authentication', 'Real-time Features'],
+        description: 'Complete software solutions from backend to frontend. We design, build, and scale your product end to end.',
+        features: [
+            'Supabase & PostgreSQL',
+            'Secure APIs',
+            'Authentication & Authorization',
+            'Real-time Applications'
+        ],
     },
+
     {
-        icon: Layout,
-        title: 'UI/UX Design',
-        description: 'Beautiful, intuitive interfaces that users love. We create designs that convert visitors into customers.',
-        features: ['User Research', 'Wireframing', 'Prototyping', 'Design Systems'],
+        icon: GraduationCap,
+        title: 'Job-Ready Training',
+        description: 'Hands-on training focused on real projects, modern tools, and skills required in today’s tech jobs.',
+        features: [
+            'Real-World Projects',
+            'Modern Tech Stack',
+            'Mentorship & Code Reviews',
+            'Career & Interview Guidance'
+        ],
     },
-    {
-        icon: LineChart,
-        title: 'Performance Optimization',
-        description: 'Speed matters. We optimize your application for lightning-fast load times and better search rankings.',
-        features: ['Core Web Vitals', 'Image Optimization', 'Code Splitting', 'Caching Strategies'],
-    },
-    {
-        icon: Rocket,
-        title: 'Growth & Scale',
-        description: 'Technical partner for your growth journey. We help you scale from 100 to 100,000 users seamlessly.',
-        features: ['Infrastructure Scaling', 'Performance Monitoring', 'DevOps', 'Technical Strategy'],
-    },
+
+
 ];
 
 export default function Services() {
