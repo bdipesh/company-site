@@ -1,10 +1,9 @@
 import { NextResponse } from 'next/server';
 import { createClient } from "@/app/lib/db";
-import { cookies } from "next/headers";
 
 
 export async function POST(request: Request) {
-    const supabase =  createClient(cookies());
+    const supabase =  createClient();
     const payload = await request.json(); // Read the request body
 
     const { data, error } = await supabase
