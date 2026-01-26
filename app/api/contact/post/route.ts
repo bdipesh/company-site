@@ -3,7 +3,7 @@ import { createClient } from "@/app/lib/db";
 
 
 export async function POST(request: Request) {
-    const supabase =  createClient();
+    const supabase = await createClient();
     const payload = await request.json(); // Read the request body
 
     const { data, error } = await supabase
