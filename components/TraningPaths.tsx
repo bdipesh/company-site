@@ -59,7 +59,7 @@ const show = true
 export default function TrainingPaths() {
     const [showDialog, setShowDialog] = useState(false);
     return (
-        <section className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <section id="programs" className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-50">
             <Dialog open={showDialog} title={`Thank you for your interest.`} onClose={() => setShowDialog(false) }>
                 <div>
 

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function NewHero() {
     return (
@@ -17,12 +18,16 @@ export default function NewHero() {
                             From hands-on coding programs to modern web and app development,
                             Yoursfriend bridges the gap between learning and real-world tech careers.                        </p>
                         <div className="flex flex-col sm:flex-row gap-4">
+                            <Link href="/#services">
                             <button className="bg-white text-center text-primary px-8 py-4 rounded-lg font-semibold hover:bg-white/90 transition-all duration-300 flex items-center gap-2 shadow-lg">
                                 Start your tech journey
                             </button>
-                            <button className="bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary/90 transition-all duration-300 flex items-center gap-2 shadow-lg">
-                                View our program
+                            </Link>
+                            <Link href="/#programs">
+                            <button  className="bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary/90 transition-all duration-300 flex items-center gap-2 shadow-lg">
+                                    View our program
                             </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="relative w-full aspect-[4/3] md:aspect-square lg:aspect-[3/2] rounded-2xl overflow-hidden shadow-2xl">
