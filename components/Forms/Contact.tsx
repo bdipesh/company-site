@@ -5,11 +5,11 @@ import { z } from "zod";
 import { useForm} from "react-hook-form";
 import {zodResolver} from "@hookform/resolvers/zod"
 import {useEffect, useState} from "react";
-import { Turnstile } from "nextjs-turnstile";
+// import { Turnstile } from "nextjs-turnstile";
 
 
 type ContactFormData = z.infer<typeof ContactTypes>
-const ContactForm = ({onClose}) => {
+const ContactForm = ({onClose}: {onClose: void}) => {
     const {register, handleSubmit, formState: {errors, isSubmitting}} = useForm(
         {
             resolver: zodResolver(ContactTypes), defaultValues: {
@@ -85,7 +85,7 @@ const ContactForm = ({onClose}) => {
         <>
             <div className="mb-3">
                 Please provide us your basic information and we will get back to you ASAP.
-                Let's build something together...
+                {`Let's build something together...`}
             </div>
            <form onSubmit={handleSubmit(onSubmit)}>
                <div className="grid grid-cols-12 gap-6">
