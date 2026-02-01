@@ -9,7 +9,7 @@ import {useEffect, useState} from "react";
 
 
 type ContactFormData = z.infer<typeof ContactTypes>
-const ContactForm = ({onClose}: {onClose: void}) => {
+const ContactForm = ({onClose}: {onClose: () => void}) => {
     const {register, handleSubmit, formState: {errors, isSubmitting}} = useForm(
         {
             resolver: zodResolver(ContactTypes), defaultValues: {
